@@ -1,0 +1,109 @@
+nav{
+    padding: 0 20px;
+}
+nav ul li a,nav span,.login span a{
+    color: white !important;
+}
+nav ul li a:hover,nav span:hover,.login span a:hover{
+   color: #9d9d9d !important;
+}
+.navbar-brand img{
+   display: block;
+   margin-top: -25px;
+}
+.navbar-form{
+    margin-right: 200px;
+}
+.login{
+    position: absolute;
+    top: 15px;
+    right: 150px;
+}
+@media all and (max-width: 767px) {
+    .navbar .navbar-form{
+        display: none;
+    }
+}
+article{
+    margin-top: 20px;
+    padding: 20px;
+    background: url("../images/bannerbg.png") 0 0 no-repeat;
+    height: 400px;
+}
+#articleContext{
+    background-color: white;
+    padding: 20px 10px;
+}
+#articleContext span{
+    display: block;
+    padding: 10px 0px;
+}
+article .container .row{
+    margin-top: 20px;
+}
+#articleContext span:nth-of-type(2) {
+  border-bottom: 1px dashed #cccccc;
+}
+.tab-content div span{
+    display: block;
+    padding: 10px 10px;
+}
+#navTabl{
+    border:  1px solid #cccccc;
+}
+.caption h3{
+    display: inline;
+}
+.row .col-md-3 .caption p{
+    font-size: 10px;
+}
+.img{
+    margin: 10px 20px;
+}
+.title{
+    background-color: rgb(103,207,193);
+    color: white;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.title span{
+    font-size: 20px;
+}
+.media-body p{
+    font-size: 10px;
+}
+.price span,.all a,.color{
+   color: rgb(103,207,193) !important;
+}
+#top ul{
+    list-style: none;
+    border: 1px solid #cccccc;
+    padding: 10px 10px;
+}
+#top .media p{
+    font-size: 8px;
+}
+#top ul li{
+    font-size: 8px;
+}
+#top ul li:nth-of-type(1),#top ul li:nth-of-type(2),#top ul li:nth-of-type(3){
+    border-bottom: 1px solid #cccccc;
+}
+#top ul li:nth-of-type(4),#top ul li:nth-of-type(5),#top ul li:nth-of-type(6),#top ul li:nth-of-type(7),#top ul li:nth-of-type(8){
+   padding: 10px;
+
+    border-bottom: 1px dashed #cccccc;
+}
+footer{
+    background-color: rgb(33,33,33);
+    color: white;
+}
+footer h4{
+    margin-top: 0px;
+}
+section .container{
+    background-color: white;
+}
+#articleContext{
+    font-size: 10px;
+}
